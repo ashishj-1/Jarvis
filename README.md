@@ -1,4 +1,4 @@
-🤖 Jarvis – Voice-Controlled Desktop Assistant (No AI)
+# 🤖 Jarvis – Voice-Controlled Desktop Assistant (No AI)
 
 Jarvis is a lightweight, voice-activated assistant built in Python that helps you perform everyday tasks like opening websites,
 playing songs, checking the time, or fetching news headlines — all without using expensive AI services.
@@ -18,7 +18,7 @@ playing songs, checking the time, or fetching news headlines — all without usi
 └── .gitignore              # Excludes .env, __pycache__, etc.
 ```
 
-🎯 Features
+# 🎯 Features
 
 * 🎤 Voice command detection using microphone
 * 🌐 Open popular websites via voice (Google, Facebook, YouTube, etc.)
@@ -28,7 +28,7 @@ playing songs, checking the time, or fetching news headlines — all without usi
 * 🗣️ Offline text-to-speech responses
 * 🔁 Wake word detection ("Jarvis")
  
-🔧 Technologies Used
+# 🔧 Technologies Used
 
 * `speech_recognition` – for voice input
 * `pyttsx3` – for offline text-to-speech
@@ -37,7 +37,7 @@ playing songs, checking the time, or fetching news headlines — all without usi
 * `datetime` – for time handling
 * `Python 3.10+`
 
-🚀 Getting Started
+# 🚀 Getting Started
 1. Clone the Repository
 
 ```bash
@@ -66,7 +66,7 @@ env
 NEWS_API_KEY=your_news_api_key_here
 > Get your free News API key from [https://newsapi.org](https://newsapi.org)
 
-5. ▶️ Run Jarvis
+# ▶️ Run Jarvis
 
 bash
 python main.py
@@ -80,11 +80,11 @@ Jarvis will listen for the wake word **"Jarvis"** and then await your commands.
 * “Tell me the news”
 * “Stop” or “Exit” to quit
 
-6. 📜 License
+# 📜 License
 
 MIT License — free to use, modify, and share.
 
-7. 🙏 Acknowledgments
+# 🙏 Acknowledgments
 
 * Open-source Python libraries
 * News API
